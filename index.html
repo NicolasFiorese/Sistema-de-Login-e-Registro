@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Login e Registro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section>
+      <div class="container">
+        <div class="user singinBx">
+          <div class="imgBx">
+            <img
+              src="assets/camera2.jpg"
+              alt="Foto de um fotógrafo de frente"
+            />
+          </div>
+          <div class="formBx">
+            <form>
+              <h2>Login</h2>
+              <input type="text" name="" placeholder="Nome de usuário" />
+              <input type="password" name="" placeholder="Senha" />
+              <input type="submit" name="" value="Login" />
+              <p class="signup">
+                Ainda não é cadastrado?<a href="#" onclick="toggleForm()"
+                  >Registrar-se</a
+                >
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="user singupBx">
+          <div class="formBx">
+            <form>
+              <h2>Criar uma conta</h2>
+              <input type="text" name="" placeholder="Nome de usuário" />
+              <input type="email" name="" placeholder="Email" />
+              <input type="password" name="" placeholder="Criar uma senha" />
+              <input type="password" name="" placeholder="Confirmar senha" />
+              <input type="submit" name="" value="Registrar" />
+              <p class="signup">
+                Já é registrado?<a href="#" onclick="toggleForm()">Entrar</a>
+              </p>
+            </form>
+          </div>
+          <div class="imgBx">
+            <img
+              src="assets/camera1.jpg"
+              alt="Foto de um fotógrafo de frente"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
